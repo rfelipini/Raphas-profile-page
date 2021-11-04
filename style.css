@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+body{
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  background: hsla(186, 33%, 94%, 1);
+}
+
+h1{
+  color: #081f70;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2{
+  color: #081f70;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#profile-picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+div.social {
+ background: hsla(186, 33%, 94%, 1);
+ height: 25px;
+
+}
+
+a {
+  color: #081f70;
+  font-size: 30px;
+  padding: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-white {
+  background-color: rgb(185, 206, 219);
+  padding: 15px 2px;
+  border-radius: 20px;
+  margin: 5px 10px;
+  text-align:center;
+}
